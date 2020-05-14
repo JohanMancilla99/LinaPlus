@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-administrador {
+    height: 80vh;
+}
+
+/* Texto Entrada */
+
+.texto-entrada {
+    margin-top: 2vh;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-entrada h1 {
+    font-size: 1.2rem;
+    color: rgb(35, 130, 118);
+}
+
+.texto-entrada p {
+    font-size: .6rem;
+}
+
+/* consultas principales */
+
+.consultas-principales {
+    height: 60vh;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.consulta {
+    min-width: 15vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+.consulta img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.consulta a {
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+}
+
+
+/* consultas secundarias */
+
+.consultas-secundarias {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.izquierda {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.izquierda a {
+    width: 25%;
+}
+
+.derecha {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.derecha a {
+    width: 60%;
+}
+
+.derecha a, .izquierda a, .consulta a {
+    padding: .4rem 0px;
+    border: none;
+    background-color: rgb(35, 130, 118);
+    border-radius: 4px;
+    color: white;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    text-align: center;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.derecha a:hover, .izquierda a:hover, .consulta a:hover {
+    color: rgb(35, 130, 118);
+    background-color: white;
+    border: 2px solid rgb(35, 130, 118);
+}
+

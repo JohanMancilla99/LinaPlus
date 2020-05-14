@@ -1,0 +1,167 @@
+
+/* Programa crear */
+
+.crear-programa {
+    width: 100%;
+    height: 100%;
+}
+
+
+.c-programa-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.crear-programa h1 {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(35, 130, 118);
+}
+
+.c-programa {
+    width: 45%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.cp-1 {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 8%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cp-1 label,
+.cp-2 div label {
+    position: absolute;
+    top: -10%;
+    left: 0px;
+    transform: translateY(-50%);
+    font-size: 0.8rem;
+    color:  rgb(66, 66, 66);
+    transition: all 0.6s ease;
+}
+
+.cp-1 input, .cp-2 input, .cp-2 select {
+    width: 100%;
+    height: 80%;
+    border: none;
+    background-color: white;
+    outline: none;
+    border-bottom: 1px solid  rgb(66, 66, 66);
+    transition: all 0.6s ease;
+}
+
+.cp-2 {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.cp-2 div {
+    width: 48%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cp-3 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cp-3 label {
+    font-size: 0.8rem;
+    color:  rgb(66, 66, 66);
+    transition: all 0.6s ease;
+}
+
+.cp-3 textarea {
+    resize: none;
+    background: white;
+    border: 1px solid rgb(66, 66, 66);
+    outline: none;
+    padding-left: 4px;
+    transition: all 0.6s ease;
+}
+
+.c-programa button {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20%;
+    height: 6%;
+    border: none;
+    background: rgb(35, 130, 118);
+    border-radius: 10px;
+    color: white;
+    transition: background 0.4s ease;
+}
+
+.c-programa button:hover {
+    background: rgb(45, 161, 146);
+}
+
+.cp-1 input:focus, .cp-1 input:valid,
+.cp-2 div input:focus, .cp-2 div input:valid {
+    border-bottom: 1px solid rgb(35, 130, 118);
+}
+
+.cp-3 textarea:focus, .cp-3 textarea:valid {
+    border: 1px solid rgb(35, 130, 118);
+}
+
+.cp-1 input:focus + .cp-1 label, .cp-1 input:valid + .cp-1 label,
+.cp-2 div input:focus + .cp-2 div label, .cp-2 div input:valid + .cp-2 div label {
+    color: rgb(35, 130, 118);
+}
+
+/* Crear Ficha */
+
+.crear-ficha {
+    width: 100%;
+    height: 100%;
+}
+
+.c-ficha-principal {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.c-ficha-principal h1 {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.c-ficha {
+    width: 45%;
+    height: 70%;
+    background: burlywood;
+}
+
+
+
+

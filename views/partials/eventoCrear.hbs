@@ -1,0 +1,194 @@
+<section class="crear-evento">
+    <div class="crear-evento-main">
+        <h1 class="ce-title">Crear Evento</h1>
+        <div class="ce-izq">
+            <div class="ce-1">
+                <div class="ce-1-2">
+                    <label for="">Programa</label>
+                    <select name="">
+                        <option value="">Programa 1</option>
+                    </select>
+                </div>
+                <div class="ce-1-1">
+                    <label for="">Trimestre</label>
+                    <select name="">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                    </select>
+                </div>
+                <div class="ce-1-1">
+                    <label for="">Ficha</label>
+                    <select name="" size="1">
+                        <option value="">Ficha 1</option>
+                        <option value="">Ficha 2</option>
+                    </select>
+                </div>
+            </div>
+            <div class="ce-2">
+                <div class="ce-2-1">
+                    <label for="">competencia:</label>
+                    <select name="">
+                        <option>Seleccione</option>
+                        <option value="">1</option>
+                        <option value=""><button>hello</button></option>
+                    </select>
+                </div>
+                <div class="ce-2-2">
+                    <label for="">Resultado de aprendizaje:</label>
+                    <select name="">
+                        <option>Seleccione</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                </div>
+                <div class="ce-2-toggle togglediv">
+                    <div class="selectdiv" id="ignorarTrimestre"></div>
+                    <p>Ignorar trimestre</p>
+                </div>
+            </div>
+            <div class="ce-3">
+                <div>
+                    <label for="">dia:</label>
+                    <select>
+                        <option>Seleccione</option>
+                        <option value="">lunes</option>
+                        <option value="">martes</option>
+                        <option value="">miercoles</option>
+                        <option value="">jueves</option>
+                        <option value="">viernes</option>
+                        <option value="">sabado</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">jornada:</label>
+                    <select id="jornada">
+                        <option>Seleccione</option>
+                        <option value="">Mañana</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noche</option>
+                    </select>
+                </div>
+                <div id="horaInicio">
+                    <label for="">hora inicio:</label>
+                    <input type="time" min="06:00" max="22:00" required>
+                </div>
+                <div id="horaFin">
+                    <label for="">hora fin:</label>
+                    <input type="time" min="06:00" max="22:00" required>
+                </div>
+            </div>
+            <div class="ce-4">
+                <div class="ce-4-toggle togglediv">
+                    <div class="selectdiv" id="ambienteEspecifico"></div>
+                    <p>Ambiente Especifico</p>
+                </div>
+                <div class="ce-4-1">
+                    <div>
+                        <label for="">Actividad de Proyecto:</label>
+                        <select name="">
+                            <option>Seleccione</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Instructor:</label>
+                        <select>
+                            <option>Seleccione</option>
+                            <option value="">federico</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="ce-4-2">
+                    <div>
+                        <label for="">Torre:</label>
+                        <select name="">
+                            <option>Seleccione</option>
+                            <option value="">Oriental</option>
+                            <option value="">Occidental</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">ambiente:</label>
+                        <select>
+                            <option>Seleccione</option>
+                            <option value="">301</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ce-5">
+                <div class="ce-5-toggle togglediv">
+                    <div class="selectdiv" id="agregarActividad"></div>
+                    <p>Añadir Actividad</p>
+                </div>
+                <div class="ce-5-1">
+                    <label for="">Actividad:</label>
+                    <textarea name="" cols="30" rows="10"></textarea>
+                </div>
+                <div class="ce-5-2">
+                    <div>
+                        <button>Enviar</button>
+                        <button>Publicar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ce-der">
+            <div class="ce-matriz"></div>
+            <div class="ce-resultados">
+                <table>
+                    <tr class="ce-tr">
+                        <th class="ce-th">id</th>
+                        <th class="ce-th">nombre resultado</th>
+                        <th class="ce-th">trimestre</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>
+                            <div class="tooltip">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, voluptatum?
+                                <span class="tooltiptext">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Officiis, id!</span>
+                            </div>
+                        </th>
+                        <th>4</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>
+                            <div class="tooltip">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ducimus. Placeat saepe
+                                veniam quo commodi. Est iste totam nam quibusdam?
+                                <span class="tooltiptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                                    eius quibusdam maxime, amet iste commodi aliquam esse sequi. Magnam, nihil.</span>
+                            </div>
+                        </th>
+                        <th>4</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>
+                            <div class="tooltip">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto accusamus fuga quam
+                                dolor, sit iure doloremque dolorum omnis nesciunt aspernatur in nemo, doloribus autem
+                                distinctio numquam et optio soluta? Magni nostrum pariatur soluta exercitationem quidem,
+                                debitis a repudiandae doloribus sunt.
+                                <span class="tooltiptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                                    quasi at similique, facere saepe voluptatibus natus nam, ipsum perspiciatis neque
+                                    magnam exercitationem laudantium consequuntur labore quod. Nesciunt ullam modi sint
+                                    adipisci magni explicabo non aliquam laboriosam soluta, quam, temporibus
+                                    similique.</span>
+                            </div>
+                        </th>
+                        <th>4</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+</section>

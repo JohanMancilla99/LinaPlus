@@ -1,0 +1,321 @@
+.crear-evento-main {
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.ce-title {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ce-izq {
+    width: 60%;
+    height: 90%;
+}
+
+
+.ce-1, .ce-2, .ce-3, .ce-4, .ce-5 {
+    width: 100%;
+    height: 20%;
+}
+
+.ce-1 {
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.ce-1-1 {
+    width: 18%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.ce-1-2 {
+    width: 56%;
+    position: relative;
+}
+
+.ce-1-1 label, 
+.ce-1-2 label, 
+.ce-2 div label, 
+.ce-3 div label,
+.ce-4-1 label,
+.ce-4-2 label {
+    position: absolute;
+    top: -30%;
+    left: 0px;
+    transform: translateY(-50%);
+    font-size: 0.8rem;
+}
+
+.ce-1-1 select, .ce-1-2 select {
+    width: 100%;
+}
+
+option {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.ce-2 {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+}
+
+.ce-2-1, .ce-2-2 {
+    width: 47%;
+    position: relative;
+}
+
+.ce-2 div select {
+    width: 100%;
+}
+
+.ce-2-toggle, .ce-4-toggle {
+    position: absolute;
+    bottom: 0px;
+    right: 4%;
+    font-size: 0.8rem;
+
+ }
+
+.ce-3 {
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ce-3 div {
+    position: relative;
+    width: 23%;
+}
+
+.ce-3 div select, .ce-3 div input {
+    width: 80%;
+}
+
+
+.ce-4 {
+    position: relative;
+    display: flex;
+}
+
+.ce-4-1 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.ce-4-toggle {
+    transform: translateY(90%);
+}
+
+.ce-4-1 div  {
+    width: 90%;
+    position: relative;
+}
+
+.ce-4-1 select, .ce-4-2 select {
+    width: 90%;
+}
+
+.ce-4-2 {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ce-4-2 div {
+    width: 90%;
+    position: relative;
+}
+
+
+.ce-5 {
+    display: flex;
+    position: relative;
+    transform: translateY(20%);
+    transition: all 0.4s ease;
+}
+
+.ce-5-toggle {
+    position: absolute;
+    font-size: 0.8rem;
+    left: 3%;
+}
+
+.ce-5-1 {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    transform: translateY(20%);
+}
+
+.ce-5-1 label {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ce-5-1 textarea {
+    width: 70%;
+    height: 90%;
+    resize: none;
+}
+
+.ce-5-2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.ce-5-2 div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 30%;
+    transform: translateY(60%);
+}
+
+.ce-5-2 div button {
+    width: 40%;
+    height: 100%;
+}
+
+.ce-der {
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ce-matriz {
+    width: 96%;
+    height: 45%;
+    background: rgba(48, 48, 48, 0.671);
+}
+
+.ce-resultados {
+    width: 96%;
+    height: 45%;
+    border: 1px solid rgb(35, 130, 118);
+}
+
+.ce-resultados table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    background: white;
+}
+
+.ce-resultados table tr {
+    border-bottom: 1px solid rgb(35, 130, 118);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.ce-resultados table th {
+    width: 33%;
+    text-overflow: ellipsis;
+    font-size: 0.7rem;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tooltip {
+    text-overflow: ellipsis;
+    border-bottom: 1px dotted black;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 34%;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    overflow: hidden;
+    word-break: break-all;
+    z-index: 2;
+    white-space: normal;
+    top: 15%;
+    left: 63%;
+}
+
+.ce-tr {
+    background: rgb(35, 130, 118);
+}
+
+.ce-th {
+    color: white;
+}
+
+.togglediv{
+    display: flex;
+    align-items: center;
+}
+
+.selectdiv {
+    width: 15px;
+    height: 15px;
+    background: rgb(202, 202, 202);
+    margin-right: 10px;
+    border: 1px solid black;
+    transition: all 0.4s ease;
+}
+
+.opacidadActividades {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.colorSelect
+ {
+    background: rgb(0, 212, 0);
+}

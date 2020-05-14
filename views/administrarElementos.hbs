@@ -1,0 +1,85 @@
+{{> headerPartial}}
+
+<!--
+    Aqui esta el menu de administra elementos, el conenido se construye con partials, y se cambia
+    con ayuda de js para no recargar la pagina de nuevo
+
+    hay que mejorar este menu, de momento dse queda asi en cuanto a el diseño y animaciones.
+    Hay que corregir algunas cosas.
+
+-->
+
+<div class="administrar-elementos">
+    <a href="/admin" class="back-icon"><img src="/icon/back-icon.svg"></a>
+    <div class="opciones">
+        <div class="opcion">
+            <p>Programas</p>
+            <div class="opciones-traseras">
+                <button>crear</button>
+                <button>modificar</button>
+            </div>
+        </div>
+        <div class="opcion">
+            <p>Fichas</p>
+            <div class="opciones-traseras">
+                <button>crear</button>
+                <button>modificar</button>
+            </div>
+        </div>
+        <div class="opcion">
+            <p>Competencias</p>
+            <div class="opciones-traseras">
+                <button>crear</button>
+                <button>modificar</button>
+            </div>
+        </div>
+        <div class="opcion">
+            <p>Resultados de aprendizaje</p>
+            <div class="opciones-traseras">
+                <button>crear</button>
+                <button>modificar</button>
+            </div>
+        </div>
+        <div class="opcion">
+            <p>Actividades de proyecto</p>
+            <div class="opciones-traseras">
+                <button>crear</button>
+                <button>modificar</button>
+            </div>
+        </div>
+        <div class="opcion">
+            <p>Ambientes</p>
+            <div class="opciones-traseras">
+                <button>crear</button>
+                <button>modificar</button>
+            </div>
+        </div>
+        <div class="opcion">
+            <p>Instructores</p>
+            <div class="opciones-traseras">
+                <button>crear</button>
+                <button>modificar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="elementos-container">
+    <div class="imkindagetoutofhere">
+        <h1>Elija una opcion</h1>
+    </div>
+    {{>programaCrear}}
+    {{>programaModificar}}
+    {{>fichaCrear}}
+    {{>fichaModificar}}
+    {{>competenciaCrear}}
+    {{>competenciaModificar}}
+    {{>rapCrear}}
+    {{>rapModificar}}
+    {{>actividadCrear}}
+    {{>actividadModificar}}
+    {{>ambienteCrear}}
+    {{>ambienteModificar}}
+    {{>instructorCrear}}
+    {{>instructorModificar}}
+</div>

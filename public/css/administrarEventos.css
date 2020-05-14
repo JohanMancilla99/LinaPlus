@@ -1,0 +1,59 @@
+.administrar-eventos {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(35, 130, 118);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.back-icon {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+.botones-administrar-eventos {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.botones-administrar-eventos button {
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    color: rgb(35, 130, 118);
+    transition: all 0.4s ease;
+    outline: none;
+}
+
+.botones-administrar-eventos button:hover {
+    color: white;
+    background-color: rgb(47, 180, 163);
+}
+
+
+.eventos-cont {
+    position: relative;
+    width: 100%;
+    min-height: 82vh;
+}
+
+.mensaje-administrar-eventos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.esconder-partial-eventos {
+    display: none;
+}

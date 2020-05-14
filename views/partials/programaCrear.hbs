@@ -1,0 +1,35 @@
+<section class="crear-programa">
+    <div class="c-programa-main">
+        <h1>Crear Programa</h1>
+        <form class="c-programa">
+            <div class="cp-1">
+                <input placeholder="chuwaca" type="text" name="idPrograma" required autocomplete="off">
+                <label for="idPrograma">id programa:</label>
+            </div>
+            <div class="cp-1">
+                <input type="text" name="nombrePrograma" required autocomplete="off">
+                <label for="nombrePrograma">nombre del programa:</label>
+            </div>
+            <div class="cp-2">
+                <div>
+                    <label>Tipo de programa:</label>
+                    <select>
+                        <option>Seleccione</option>
+                        <option value="">Tecnico</option>
+                        <option value="">Tecnologo</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="duracion">duracion: </label>
+                    <input type="number" name="duracion" min="3" max="6" required autocomplete="off">
+                </div>
+            </div>
+            <div class="cp-3">
+                <label for="descripcion">descripcion: </label>
+                <textarea name="descripcion" cols="30" rows="10" required aria-setsize="false"
+                    autocomplete="off"></textarea>
+            </div>
+            <button>Guardar</button>
+        </form>
+    </div>
+</section>
